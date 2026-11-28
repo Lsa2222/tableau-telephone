@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <title>Tableau de bord</title>
+  <rect width="1024" height="1024" rx="240" fill="#0f1424"/>
+  <circle cx="512" cy="512" r="336" fill="none" stroke="#e3b766" stroke-width="112"/>
+  <rect x="372" y="370" width="320" height="68" rx="34" fill="#e3b766"/>
+  <rect x="372" y="490" width="224" height="68" rx="34" fill="#e3b766"/>
+  <rect x="372" y="610" width="128" height="68" rx="34" fill="#e3b766"/>
+</svg>

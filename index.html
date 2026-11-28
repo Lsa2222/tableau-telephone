@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0a0e1a" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="referrer" content="no-referrer" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; manifest-src 'self'; worker-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Tableau" />
+    <title>Tableau de bord</title>
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" href="icone.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="icone-192.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="appli.js"></script>
+  </head>
+  <body>
+    <div id="appli" class="appli">
+      <p class="chargement" role="status">J'ouvre ton tableau de bord…</p>
+      <noscript><p class="chargement">Cette page a besoin de JavaScript pour déchiffrer ton tableau de bord.</p></noscript>
+    </div>
+  </body>
+</html>
